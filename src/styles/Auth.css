@@ -1,0 +1,18 @@
+.auth {
+  width: 300px;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.auth input {
+  padding: 10px;
+}
+
+.auth button {
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 10px;
+}

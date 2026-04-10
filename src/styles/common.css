@@ -1,0 +1,59 @@
+/* Global Glassmorphic Card */
+.card {
+  background: var(--card-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  padding: 24px;
+  border-radius: 20px;
+  border: 1px solid var(--card-border);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Global Button Mixins (Used widely) */
+button {
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 9999px;
+  border: none;
+  outline: none;
+  background: linear-gradient(135deg, #0d9488, #0f766e);
+  color: white;
+  box-shadow: 0 4px 15px rgba(13, 148, 136, 0.3);
+}
+
+button:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 6px 20px rgba(13, 148, 136, 0.4);
+}
+
+button:active {
+  transform: translateY(1px) scale(0.98);
+}
+
+/* Global Form Elements */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px 18px;
+  border-radius: 12px;
+  border: 2px solid var(--card-border);
+  background: var(--input-bg);
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  color: var(--text-primary);
+  outline: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #0d9488;
+  background: var(--card-bg);
+  box-shadow: 0 0 0 4px rgba(13, 148, 136, 0.1);
+}
