@@ -1,0 +1,117 @@
+{
+  "patients": [
+    {
+      "_id": "69a238332e5a3e753adb0d41",
+      "name": "Rahul Deshmukh",
+      "email": "rahul@mail.com",
+      "password": "$2b$10$KaoUOHdo98tM8Ls22DYL/eebyi/eArNSq4AfuCsz1wsHY7OxyBfBW",
+      "__v": 0,
+      "createdAt": "2026-02-28T00:34:59.412Z",
+      "updatedAt": "2026-02-28T00:34:59.412Z"
+    },
+    {
+      "_id": "69a238332e5a3e753adb0d42",
+      "name": "Sneha Nair",
+      "email": "sneha@mail.com",
+      "password": "$2b$10$KaoUOHdo98tM8Ls22DYL/eebyi/eArNSq4AfuCsz1wsHY7OxyBfBW",
+      "__v": 0,
+      "createdAt": "2026-02-28T00:34:59.413Z",
+      "updatedAt": "2026-02-28T00:34:59.413Z"
+    },
+    {
+      "_id": "69a238332e5a3e753adb0d43",
+      "name": "Amit Kumar",
+      "email": "amit@mail.com",
+      "password": "$2b$10$KaoUOHdo98tM8Ls22DYL/eebyi/eArNSq4AfuCsz1wsHY7OxyBfBW",
+      "__v": 0,
+      "createdAt": "2026-02-28T00:34:59.413Z",
+      "updatedAt": "2026-02-28T00:34:59.413Z"
+    },
+    {
+      "_id": "69a238332e5a3e753adb0d44",
+      "name": "Pooja Reddy",
+      "email": "pooja@mail.com",
+      "password": "$2b$10$KaoUOHdo98tM8Ls22DYL/eebyi/eArNSq4AfuCsz1wsHY7OxyBfBW",
+      "__v": 0,
+      "createdAt": "2026-02-28T00:34:59.413Z",
+      "updatedAt": "2026-02-28T00:34:59.413Z"
+    },
+    {
+      "_id": "69a238332e5a3e753adb0d45",
+      "name": "Karan Johar",
+      "email": "karan@mail.com",
+      "password": "$2b$10$KaoUOHdo98tM8Ls22DYL/eebyi/eArNSq4AfuCsz1wsHY7OxyBfBW",
+      "__v": 0,
+      "createdAt": "2026-02-28T00:34:59.414Z",
+      "updatedAt": "2026-02-28T00:34:59.414Z"
+    }
+  ],
+  "doctors": [
+    {
+      "_id": "69a238332e5a3e753adb0d3b",
+      "name": "Dr. Anya Sharma",
+      "email": "anya@hospital.com",
+      "password": "$2b$10$KaoUOHdo98tM8Ls22DYL/eebyi/eArNSq4AfuCsz1wsHY7OxyBfBW",
+      "specialization": "Cardiologist",
+      "qualification": "MD, DM",
+      "location": "Mumbai City Hospital",
+      "available": true,
+      "__v": 0,
+      "createdAt": "2026-02-28T00:34:59.377Z",
+      "updatedAt": "2026-02-28T00:34:59.377Z"
+    },
+    {
+      "_id": "69a238332e5a3e753adb0d3c",
+      "name": "Dr. Vikram Singh",
+      "email": "vikram@hospital.com",
+      "password": "$2b$10$KaoUOHdo98tM8Ls22DYL/eebyi/eArNSq4AfuCsz1wsHY7OxyBfBW",
+      "specialization": "Neurologist",
+      "qualification": "MBBS, MD",
+      "location": "Apollo Clinics, Delhi",
+      "available": true,
+      "__v": 0,
+      "createdAt": "2026-02-28T00:34:59.378Z",
+      "updatedAt": "2026-02-28T00:34:59.378Z"
+    },
+    {
+      "_id": "69a238332e5a3e753adb0d3d",
+      "name": "Dr. Priya Patel",
+      "email": "priya@hospital.com",
+      "password": "$2b$10$KaoUOHdo98tM8Ls22DYL/eebyi/eArNSq4AfuCsz1wsHY7OxyBfBW",
+      "specialization": "Pediatrician",
+      "qualification": "MBBS, DCH",
+      "location": "Sunshine Care, Pune",
+      "available": true,
+      "__v": 0,
+      "createdAt": "2026-02-28T00:34:59.378Z",
+      "updatedAt": "2026-02-28T00:34:59.378Z"
+    },
+    {
+      "_id": "69a238332e5a3e753adb0d3e",
+      "name": "Dr. Rohan Gupta",
+      "email": "rohan@hospital.com",
+      "password": "$2b$10$KaoUOHdo98tM8Ls22DYL/eebyi/eArNSq4AfuCsz1wsHY7OxyBfBW",
+      "specialization": "Dermatologist",
+      "qualification": "MD Skin",
+      "location": "ClearSkin Clinic, Bangalore",
+      "available": true,
+      "__v": 0,
+      "createdAt": "2026-02-28T00:34:59.379Z",
+      "updatedAt": "2026-02-28T00:34:59.379Z"
+    },
+    {
+      "_id": "69a238332e5a3e753adb0d3f",
+      "name": "Dr. Neha Verma",
+      "email": "neha@hospital.com",
+      "password": "$2b$10$KaoUOHdo98tM8Ls22DYL/eebyi/eArNSq4AfuCsz1wsHY7OxyBfBW",
+      "specialization": "Orthopedic",
+      "qualification": "MS Ortho",
+      "location": "Bone & Joint Center, Hyderabad",
+      "available": true,
+      "__v": 0,
+      "createdAt": "2026-02-28T00:34:59.379Z",
+      "updatedAt": "2026-02-28T00:34:59.379Z"
+    }
+  ],
+  "notifications": []
+}
